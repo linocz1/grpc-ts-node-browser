@@ -1,0 +1,20 @@
+{
+  "name": "ts-grpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-protobuf": "^3.7.2",
+    "grpc-tools": "^1.12.4",
+    "grpc_tools_node_protoc_ts": "^4.1.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "grpc": "^1.24.3"
+  },
+  "scripts": {
+    "dev": "ts-node ./index.ts",
+    "proto-gen": "sh ./scripts/proto-gen.sh"
+  }
+}
