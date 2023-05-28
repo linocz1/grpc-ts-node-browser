@@ -11,6 +11,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
     "grpc": "^1.24.3"
   },
   "scripts": {

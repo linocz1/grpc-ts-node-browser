@@ -10,7 +10,7 @@ import { IMachineMapServer } from '../proto/machines_grpc_pb'
 import { GPS, Machine, MachineStreamRequest } from '../proto/machines_pb'
 import { machines } from '../db'
 
-let machineMoveInterval: NodeJS.Timeout
+let machineMoveInterval: any
 
 export class MachineMapServer implements IMachineMapServer {
   setMachineLoc(call: ServerUnaryCall<Machine>, callback: sendUnaryData<GPS>) {
